@@ -190,7 +190,7 @@ export default function AIReports() {
         {isLoading ? (
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1, gap: '1rem', color: 'var(--text-muted)', minHeight: '300px' }}>
             <Loader size={32} className="spin-animation" color="rgb(59, 130, 246)" />
-            <p>Fetching latest AI report from n8n webhook...</p>
+            <p>Generating AI research report... This may take up to 90 seconds.</p>
           </div>
         ) : error ? (
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1, gap: '1rem', color: 'rgb(239, 68, 68)', minHeight: '300px' }}>
